@@ -28,7 +28,9 @@ function one () {
 
 function two () {
   var two = document.getElementById('two')
+
   one.addEventListener('mouseenter', makeGreen)
+
   one.addEventListener('mouseleave', makeWhite)
 }
 
@@ -36,7 +38,9 @@ function two () {
 
 function three () {
   var three = document.getElementById('three')
+
   one.addEventListener('mouseenter', makeOrange)
+
   one.addEventListener('mouseleave', makeWhite)
 }
 // CREATE FUNCTION four HERE
